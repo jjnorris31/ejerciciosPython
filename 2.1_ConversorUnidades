@@ -1,0 +1,14 @@
+"""
+
+Conversor de medidas en el Sistema Inglés a Sistema Decimal
+Código 2.1
+
+"""
+
+print ("Vamos a convertir unas cuantas medidas inglesas a decimal...")
+millas = float(input("¿Cuántas millas?: "))
+pies = float(input("¿Cuántos pies?: "))
+pulgadas = float(input("¿Cuántas pulgadas?: "))
+metros = 1609.344 * millas + .3048 * pies + .0254 * pulgadas
+
+print ("La longitud en metros es de", metros)
